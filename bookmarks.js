@@ -1,40 +1,49 @@
 // Note: having length != 4 will mess with layout based on how the site is styled
 const bookmarks = [
   {
-    title: "Daily",
+    title: "Ticketing",
     links: [
-      { name: "Inbox", url: "https://inbox.google.com" },
-      { name: "GitHub", url: "https://github.com" },
-      { name: "Drive", url: "https://drive.google.com" },
+      { name: "Redmine", url: "https://devops.dchbx.org/redmine/projects/dchbx-ongoing-operations-2021/issues" },
+      { name: "Salesforce", url: "https://dchbx.my.salesforce.com/500?fcf=00Bt00000016b1B" },
+      { name: "Formatting", url: "https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile" },
     ],
   },
   {
-    title: "Media",
+    title: "EnrollApp",
     links: [
-      { name: "Youtube", url: "https://youtube.com" },
-      { name: "Netflix", url: "https://netflix.com" },
-      { name: "Crunchyroll", url: "https://crunchyroll.com" },
+      { name: "EnrollApp", url: "https://enroll.dchealthlink.com/exchanges/hbx_profiles" },
+      { name: "Environments", url: "https://environments.priv.dchbx.org/by_environment.html" },
+      { name: "HBX IT EA", url: "https://hbxit-enroll.priv.dchbx.org/" },
+    ],
+  },
+  {
+    title: "Tools",
+    links: [
+      { name: "Peoplesoft", url: "https://ess.dc.gov/" },
       {
-        name: "Amazon Prime",
-        url: "https://www.amazon.com/Amazon-Video",
+        name: "Start.dc.gov",
+        url: "https://start.dc.gov/",
+      },
+      { name: "O&M Hangout", url: "https://meet.google.com/gxa-jtet-azx" },
+      {
+        name: "My Hangout",
+        url: "https://meet.google.com/yvj-ahyf-svn?pli=1&authuser=2",
       },
     ],
   },
   {
-    title: "Reddit",
+    title: "Brian",
     links: [
-      { name: "/r/overwatch", url: "https://reddit.com/r/overwatch" },
+      { name: "Reddit", url: "https://reddit.com/" },
       {
-        name: "/r/pcmasterrace",
-        url: "https://reddit.com/r/pcmasterrace",
+        name: "Lifehacker",
+        url: "https://lifehacker.com/",
       },
-      { name: "/r/me_irl", url: "https://reddit.com/r/me_irl" },
+      { name: "Reston Now", url: "https://www.restonnow.com/" },
       {
-        name: "/r/battlestations",
-        url: "https://reddit.com/r/battlestations",
+        name: "WaPo",
+        url: "https://www.washingtonpost.com/",
       },
-      { name: "/r/unixporn", url: "https://reddit.com/r/unixporn" },
-      { name: "/r/news", url: "https://reddit.com/r/news" },
     ],
   },
   {
